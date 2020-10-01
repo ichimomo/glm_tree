@@ -1,9 +1,9 @@
-### Package of 'glm.tree'
+## Package of 'glm.tree'
 
-\* Note that this is only for lognormal distribution as error structure,
+* Note that this is only for lognormal distribution as error structure,
 currently.
 
-Change Log: \
+### Change Log:
 
 -   1st Oct 2020. GOTO github
 -   3rd August 2012. Define namespace  (ver.1.2)
@@ -11,21 +11,28 @@ Change Log: \
     tree-glm only within a specific range of longitude
 -   17th Dec 2010. Add binary zip package for Windows XP
 
-Download and Install: through install_github \
+### Download and Install
+
+Please use install_github
 
     install.packages("devtools") 
     devtools::install_github("ichimomo/glm.tree")
 
-Required additional package: biglm \
+### Required additional package
+biglm 
 
-Usage: See help after calling the library of 'glm.tree' such as
+### Usage
+
+See help after calling the library of 'glm.tree' such as
 
      
     library(glm.tree)  
     help(glm.tree)
      
 
-Examples: (same as shown in help of glm.tree)
+### Examples
+
+same as shown in the help of glm.tree
 
 
     library(glm.tree)
@@ -54,9 +61,9 @@ Examples: (same as shown in help of glm.tree)
     plot(res$summary.stat$Num.area,res$summary.stat$AIC)
 
     # compare results
-    ldata$area2 <- res$area[[2]]
-    ldata$area9 <- res$area[[9]]
-    ldata$area14 <- res$area[[14]]
+    ldata$area2 <- res0$area[[2]]
+    ldata$area9 <- res0$area[[9]]
+    ldata$area14 <- res0$area[[14]]
     res.glm2 <- glm(lcpue~as.factor(year)+as.factor(area2),data=ldata)
     res.glm9 <- glm(lcpue~as.factor(year)+as.factor(area9),data=ldata)
     res.glm14 <- glm(lcpue~as.factor(year)+as.factor(area14),data=ldata)
