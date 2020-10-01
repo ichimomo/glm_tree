@@ -1,7 +1,7 @@
 Package: glm.tree
 Type: Package
 Title: Do area stratification with glm-tree algorithm
-Version: 1.2
+qVersion: 1.2
 Date: 2012-08-03
 Author: Momoko Ichinokawa
 Maintainer: Momoko Ichinokawa <ichimomo@fra.affrc.go.jp>
