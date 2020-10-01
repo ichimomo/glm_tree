@@ -1,11 +1,11 @@
-Package: glm.tree
+Package: glm_tree
 Type: Package
 Title: What the package does (short line)
 Version: 1.2
 Date: 2012-08-03
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Author: Momoko Ichinokawa
+Maintainer: Momoko Ichinokawa <ichimomo@fra.affrc.go.jp>
+Description: https://www.sciencedirect.com/science/article/abs/pii/S0165783610001785
+License: 
 LazyLoad: yes
-Packaged: 2012-08-03 12:36:43 UTC; momoko
+Imports: biglm

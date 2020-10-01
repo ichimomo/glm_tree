@@ -1,44 +1,34 @@
-### Package of 'glm.tree'
+### Package of 'glm_tree'
 
 \* Note that this is only for lognormal distribution as error structure,
 currently.
 
 Change Log: \
 
--   1.2; 3rd August 2012. Define namespace
+-   1st Oct 2020. GOTO github
+-   3rd August 2012. Define namespace  (ver.1.2)
 -   31th March 2011. Debugged because older version can't conduct
     tree-glm only within a specific range of longitude
 -   17th Dec 2010. Add binary zip package for Windows XP
 
-Download and Install: \
- [source code] [glm.tree\_1.2.tar.gz](glm.tree_1.2.tar.gz) \
+Download and Install: through install_github \
 
--   Install the 'tar.gz' ball by R command such as
-
-         
-        command line> R CMD INSTALL glm.tree_1.0.tar.gz
-
-\
-\
- [For windows] [glm.tree\_1.2.zip](glm.tree_1.2.zip) (complied under
-windows XP (32bit))\
-
--   GO to menu -\> package -\> Install zip file in local directory -\>
-    Select the zip file
+    install.packages("devtools") 
+    devtools::install_github("ichimomo/glm_tree")
 
 Required additional package: biglm \
 
-Usage: See help after calling the library of 'glm.tree' such as
+Usage: See help after calling the library of 'glm_tree' such as
 
      
-    library(glm.tree)  
-    help(glm.tree)
+    library(glm_tree)  
+    help(glm_tree)
      
 
-Examples: (same as shown in help of glm.tree)
+Examples: (same as shown in help of glm_tree)
 
 
-    library(glm.tree)
+    library(glm_tree)
     data(ldata)
     # install.packates(biglm) # if 'biglm' packages are not installed.  
     library(biglm)
@@ -87,13 +77,5 @@ Examples: (same as shown in help of glm.tree)
     res.md <- make.treeglm(expression(lcpue~as.factor(year)+as.factor(area)),
                               data=ldata,debug.mode=F,max.split=15,graph=F,IC="MD",IC2="AIC")
 
-Past packages:
 
--   [glm.tree\_1.1.tar.gz](glm.tree_1.1.tar.gz),
-    [glm.tree\_1.1.zip](glm.tree_1.1.zip)
--   [glm.tree\_1.0.tar.gz](glm.tree_1.0.tar.gz),
-    [glm.tree\_1.0.zip](glm.tree_1.0.zip)
 
-* * * * *
-
-[Back to the top page](../index.html)
