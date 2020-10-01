@@ -1,4 +1,4 @@
-### Package of 'glm_tree'
+### Package of 'glm.tree'
 
 \* Note that this is only for lognormal distribution as error structure,
 currently.
@@ -14,21 +14,21 @@ Change Log: \
 Download and Install: through install_github \
 
     install.packages("devtools") 
-    devtools::install_github("ichimomo/glm_tree")
+    devtools::install_github("ichimomo/glm.tree")
 
 Required additional package: biglm \
 
-Usage: See help after calling the library of 'glm_tree' such as
+Usage: See help after calling the library of 'glm.tree' such as
 
      
-    library(glm_tree)  
-    help(glm_tree)
+    library(glm.tree)  
+    help(glm.tree)
      
 
-Examples: (same as shown in help of glm_tree)
+Examples: (same as shown in help of glm.tree)
 
 
-    library(glm_tree)
+    library(glm.tree)
     data(ldata)
     # install.packates(biglm) # if 'biglm' packages are not installed.  
     library(biglm)
