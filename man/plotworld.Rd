@@ -80,7 +80,4 @@ M. Ichinokawa (ichimomo@fra.affrc.go.jp)
 \seealso{
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
-\examples{
 
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
