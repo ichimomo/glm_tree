@@ -16,7 +16,7 @@ currently.
 Please use install_github
 
     install.packages("devtools") 
-    devtools::install_github("ichimomo/glm.tree")
+    devtools::install_github("ichimomo/glm_tree")
 
 ### Required additional package
 biglm 
